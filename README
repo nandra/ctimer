@@ -1,10 +1,14 @@
 ctimer is console timer which runs specified command 
 (script, program) after time is elapsed.
 
-Could be used in 2 modes:
-    - one shot timer
-    - periodic timer
+Usage: ctimer <timer type options> [-t time] <-e path to program>
 
-Default time is set to 100s.
+timer type options:
+-p periodic timer
+-o tone shot timer
+
+time:
+-t time in seconds (default is 100s)
+
 
 
